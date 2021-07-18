@@ -1,4 +1,4 @@
-# ChipsEV-sd-from-PT4
+# chipsEV-sd-from-PT4
 R script for finding out what's the standard deviation of my chips EV in poker spin&amp;go format.
 
 Import data from Poker Tracker 4 to calculate the standard deviation of the chips ev results from my spins database.
