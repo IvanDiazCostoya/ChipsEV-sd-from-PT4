@@ -9,7 +9,6 @@
 # Changed the Site name to 'Sportium', 'PS.es', 'PS.com'
 # Erased torunament ID column
 
-
 # Path to the files
 path <- "D:/Poker/01_Spins/02_Spins_Analisis desviacion tipica chips ev/"
 
@@ -33,7 +32,7 @@ results_PS_com <- read.csv(file_PS_com, head=T, sep=",", dec=".")
 # unique(results_PS_com[,2])
 
 # Standard deviation of chips won
-# st_dev_Chips(T, T, T, 1, 2)
+# st_dev_Chips(T, T, T, 10, 50)
 # include_Sportium = T; include_PS_es = T; include_PS_com = T; min_stake = 5; max_stake = 50
 st_dev_Chips <- function(include_Sportium, include_PS_es, include_PS_com, min_stake, max_stake) {
 	results = NULL
@@ -55,7 +54,7 @@ st_dev_Chips <- function(include_Sportium, include_PS_es, include_PS_com, min_st
 }
 
 # Standard deviation of chips EV
-# st_dev_ChipsEV(T, T, T, 1, 2)
+# st_dev_ChipsEV(T, T, T, 10, 50)
 # include_Sportium = T; include_PS_es = T; include_PS_com = T; min_stake = 5; max_stake = 50
 st_dev_ChipsEV <- function(include_Sportium, include_PS_es, include_PS_com, min_stake, max_stake) {
 	results = NULL
