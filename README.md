@@ -15,4 +15,4 @@ Erased torunament ID column.
 The results are aproximately 727 for chips won and 438 for chips ev and very consistent throughout different sites.
 I will use those for calculations about bankroll management, variance, etc.
 
-<img src="st_dev_Chips.jpg" width=100% height=100%>
+<img src="st_dev_Chips.jpg" width=50% height=50%>
